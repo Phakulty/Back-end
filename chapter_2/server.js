@@ -16,6 +16,7 @@ app.get('/', (req, res) => {
         <body>
             <p>${JSON.stringify(data)}</p>
             <a href="/dashboard">Go to Dashboard</a>
+            <a href="/api">Go to API</a>
         </body>
     `);
 });
